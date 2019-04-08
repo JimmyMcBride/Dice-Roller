@@ -1,18 +1,15 @@
+.rollApp {
+	background-color: slategray;
+	border-radius: 5px;
+	width: 750px;
+	margin: 0 auto;
+}
 .bar {
-  margin: 10px;
+	display: flex;
+	margin: 10px;
 }
 .dice {
-  display: inline-block;
-  width: 44px;
-	font-weight: bold;
-	background: lightgray;
-	border: black 1px solid;
-  padding-width: 70px;
-	padding: 4px;
-	font-size: 30px;
-	text-align: center;
-	margin-left: 10px;
-  
+  display: none;
 }
 .hist {
   display: inline-block;
@@ -20,12 +17,22 @@
 	font-weight: bold;
 	background: lightgray;
 	border: black 1px solid;
+	border-radius: 5px;
 	padding: 4px;
 	font-size: 30px;
 	text-align: center;
-	margin-left: 10px;
+	margin: 5px;
 }
-.button {
-	margin-left: 16px;
-  background-color: darkgray;
+.rollButton {
+	border-radius: 5px;
+	height: 45px;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+.clearButton {
+	border-radius: 5px;
+	height: 45px;
+	margin-top: 5px;
+	margin-left: 5px;
 }

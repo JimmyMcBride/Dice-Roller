@@ -4,7 +4,6 @@ const die3hist = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 const die4hist = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 const die5hist = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 const die6hist = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-const clear = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
 const d4hist1 = document.getElementById('d4hist1')
 const d4hist2 = document.getElementById('d4hist2')
@@ -170,6 +169,86 @@ function rollDice6(){
 	d20hist10.innerHTML = die6hist[9]
 }
 
-function clearHist(array){
-	array.push(clear)
+function clearHist1(){
+	d4hist1.innerHTML = 0
+	d4hist2.innerHTML = 0
+	d4hist3.innerHTML = 0
+	d4hist4.innerHTML = 0
+	d4hist5.innerHTML = 0
+	d4hist6.innerHTML = 0
+	d4hist7.innerHTML = 0
+	d4hist8.innerHTML = 0
+	d4hist9.innerHTML = 0
+	d4hist10.innerHTML = 0
+	die1hist.unshift(0, 0, 0, 0, 0, 0, 0, 0, 0)
+}
+
+function clearHist2(){
+	d6hist1.innerHTML = 0
+	d6hist2.innerHTML = 0
+	d6hist3.innerHTML = 0
+	d6hist4.innerHTML = 0
+	d6hist5.innerHTML = 0
+	d6hist6.innerHTML = 0
+	d6hist7.innerHTML = 0
+	d6hist8.innerHTML = 0
+	d6hist9.innerHTML = 0
+	d6hist10.innerHTML = 0
+	die2hist.unshift(0, 0, 0, 0, 0, 0, 0, 0, 0)
+}
+
+function clearHist3(){
+	d8hist1.innerHTML = 0
+	d8hist2.innerHTML = 0
+	d8hist3.innerHTML = 0
+	d8hist4.innerHTML = 0
+	d8hist5.innerHTML = 0
+	d8hist6.innerHTML = 0
+	d8hist7.innerHTML = 0
+	d8hist8.innerHTML = 0
+	d8hist9.innerHTML = 0
+	d8hist10.innerHTML = 0
+	die3hist.unshift(0, 0, 0, 0, 0, 0, 0, 0, 0)
+}
+
+function clearHist4(){
+	d10hist1.innerHTML = 0
+	d10hist2.innerHTML = 0
+	d10hist3.innerHTML = 0
+	d10hist4.innerHTML = 0
+	d10hist5.innerHTML = 0
+	d10hist6.innerHTML = 0
+	d10hist7.innerHTML = 0
+	d10hist8.innerHTML = 0
+	d10hist9.innerHTML = 0
+	d10hist10.innerHTML = 0
+	die4hist.unshift(0, 0, 0, 0, 0, 0, 0, 0, 0)
+}
+
+function clearHist5(){
+	d12hist1.innerHTML = 0
+	d12hist2.innerHTML = 0
+	d12hist3.innerHTML = 0
+	d12hist4.innerHTML = 0
+	d12hist5.innerHTML = 0
+	d12hist6.innerHTML = 0
+	d12hist7.innerHTML = 0
+	d12hist8.innerHTML = 0
+	d12hist9.innerHTML = 0
+	d12hist10.innerHTML = 0
+	die5hist.unshift(0, 0, 0, 0, 0, 0, 0, 0, 0)
+}
+
+function clearHist6(){
+	d20hist1.innerHTML = 0
+	d20hist2.innerHTML = 0
+	d20hist3.innerHTML = 0
+	d20hist4.innerHTML = 0
+	d20hist5.innerHTML = 0
+	d20hist6.innerHTML = 0
+	d20hist7.innerHTML = 0
+	d20hist8.innerHTML = 0
+	d20hist9.innerHTML = 0
+	d20hist10.innerHTML = 0
+	die6hist.unshift(0, 0, 0, 0, 0, 0, 0, 0, 0)
 }
