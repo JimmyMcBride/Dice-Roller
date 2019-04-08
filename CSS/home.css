@@ -1,0 +1,31 @@
+.bar {
+  margin: 10px;
+}
+.dice {
+  display: inline-block;
+  width: 44px;
+	font-weight: bold;
+	background: lightgray;
+	border: black 1px solid;
+  padding-width: 70px;
+	padding: 4px;
+	font-size: 30px;
+	text-align: center;
+	margin-left: 10px;
+  
+}
+.hist {
+  display: inline-block;
+  width: 44px;
+	font-weight: bold;
+	background: lightgray;
+	border: black 1px solid;
+	padding: 4px;
+	font-size: 30px;
+	text-align: center;
+	margin-left: 10px;
+}
+.button {
+	margin-left: 16px;
+  background-color: darkgray;
+}
