@@ -1,3 +1,3 @@
 # Dice-Roller
  
- App ment to just roll dice atm. Would be very useful in a D&D senario. Right now I really need help figuring out how to create a history bar to the left of each die letting you know the history of up to 20 rolls for each die. If anybody has any advice it'd be much appriciated!
+The app rolls a D4, D6, D8, D10, D12, and a D20 die and stores a memory of up to 10 rolls per die and the memory can be cleared with the clear button.
